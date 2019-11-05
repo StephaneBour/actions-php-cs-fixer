@@ -1,4 +1,4 @@
-name: 'PHP CS Fixer'
+name: 'PHP Code Style Fixer (php-cs-fixer)'
 description: 'php code style fixer (php-cs-fixer)'
 branding:
   icon: 'check-circle'
