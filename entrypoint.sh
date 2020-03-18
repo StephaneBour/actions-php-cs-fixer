@@ -19,4 +19,4 @@ if [ ! -d "${DIR_TO_SCAN}" ] && [ ! -f "${DIR_TO_SCAN}" ]; then
   exit 2
 fi
 
-php -d memory_limit=-1 /php-cs-fixer fix --dry-run -v --show-progress=dots --diff-format=udiff "${DIR_TO_SCAN}"
+php -d memory_limit=-1 /php-cs-fixer fix --dry-run -v --show-progress=dots --config=/github/workspace/.php_cs --diff-format=udiff "${DIR_TO_SCAN}"
