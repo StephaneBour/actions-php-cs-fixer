@@ -1,6 +1,6 @@
-FROM php:7.3-cli
+FROM php:7.4-cli
 
-LABEL version="1.0"
+LABEL version="7.4"
 LABEL repository="https://github.com/StephaneBour/actions-php-cs-fixer"
 LABEL homepage="https://github.com/StephaneBour/actions-php-cs-fixer"
 LABEL maintainer="Stéphane Bour <stephane.bour@gmail.com>"
