@@ -1,4 +1,4 @@
-FROM bdossantos/php-lol:8.0
+FROM bdossantos/php-lol:8.2
 
 LABEL version="8.0-bdossantos"
 LABEL repository="https://github.com/StephaneBour/actions-php-cs-fixer"
