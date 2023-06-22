@@ -12,7 +12,7 @@ The folder to control. Default `"."`.
 
 ```yaml
 - name: PHP CS Fixer
-  uses: StephaneBour/actions-php-cs-fixer@8.1
+  uses: StephaneBour/actions-php-cs-fixer@8.2
   with:
     dir: './src'
 ```
